@@ -14,18 +14,20 @@ definir ramasser_ligne:
 
 definir change_de_ligne:
     si regarde_est:
-        si devant_libre:
+        si gauche_libre:
             tourner_gauche
             avancer
             tourner_gauche
     sinon:
-        si devant_libre:
+        si droite_libre:
             tourner_droite
             avancer
             tourner_droite
 
-
-tant que devant_libre:
-    ramasser_ligne
-    si pas devant_libre:
-        change_de_ligne
+ramasser_ligne
+change_de_ligne
+ramasser_ligne
+change_de_ligne
+ramasser_ligne
+change_de_ligne
+ramasser_ligne
