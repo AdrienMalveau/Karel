@@ -6,11 +6,11 @@ definir tourner_droite:
 
 definir ramasser_ligne:
     si balise_ici:
-        ramasser_balise
+        ramasser_case
     tant que devant_libre:
         avancer
         si balise_ici:
-            ramasser_balise
+            ramasser_case
 
 definir change_de_ligne:
     si regarde_est:
@@ -23,6 +23,11 @@ definir change_de_ligne:
             tourner_droite
             avancer
             tourner_droite
+
+definir ramasser_case:
+    tant que balise_ici:
+        ramasser_balise
+
 
 ramasser_ligne
 change_de_ligne
