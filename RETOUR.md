@@ -2,5 +2,5 @@
 
 Comment est votre blanquette ?
 
-# Réponse étudiant :
+# Réponse étudiant :Ma blanquette est nickel !
 
