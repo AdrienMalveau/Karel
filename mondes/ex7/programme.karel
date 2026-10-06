@@ -4,4 +4,7 @@ tant que devant_libre:
     avancer
     si balise_ici:
         ramasser_balise
+    si pas devant_libre:
+        tourner_gauche
 
+        
